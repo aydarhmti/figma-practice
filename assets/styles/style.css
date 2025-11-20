@@ -1,28 +1,26 @@
-
-
 @font-face {
     font-family: 'peyda';
-    src: url('peyda/peyda/peyda-bold.ttf') format('truetype');
+    src: url('../fonts/peyda/peyda/peyda-bold.ttf') format('truetype');
     font-weight: 700;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'peyda';
-    src: url('peyda/peyda/peyda-medium.ttf') format('truetype');
+    src: url('../fonts/peyda/peyda/peyda-medium.ttf') format('truetype');
     font-weight: 500;
     font-style: medium;
 }
 @font-face {
     font-family: 'peyda';
-    src: url('peyda/peyda/peyda-regular.ttf') format('truetype');
+    src: url('../fonts/peyda/peyda/peyda-regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'peyda';
-    src: url('peyda/peyda/peyda-semi-bold.ttf') format('truetype'),
-         url('peyda/peyda/peyda-semiBold.ttf') format('truetype');
+    src: url('../fonts/peyda/peyda/peyda-semi-bold.ttf') format('truetype'),
+         url('../fonts/peyda/peyda/peyda-semiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: bold;
 }
@@ -68,8 +66,6 @@ body{
     
 }
 .container{
-    /* width: 836px;
-    height: 1084px; */
     direction: rtl;
     position: relative;
     
@@ -86,7 +82,7 @@ padding: 0;
     height: 242px;
     position: absolute;
     top: 182px;
-    left: 258px; /* 1342-1084=258 */
+    left: 258px; 
 }
 form{
     display: flex;
@@ -97,22 +93,12 @@ form{
     height: 304px;
     position: absolute;
     top: 522px;
-    left: 239px; /* 1323-1084=239 */
+    left: 239px;
     gap: 32px;
     
    }
-
-/* .inputs{
-    flex-direction: column;
-    width: 354px;
-    height: 106px;
-    gap: 4px;
-    padding: 16px 8px;
-    
-
-} */
  
-.lb1{
+.phone-lable{
     font-family: 'peyda';
     font-weight: 400;
     font-style: normal;
@@ -125,7 +111,7 @@ form{
     gap:10px;
     
 }
-.lb2{
+.pass-lable{
     font-family: 'peyda';
     font-weight: 400;
     font-style: normal;
