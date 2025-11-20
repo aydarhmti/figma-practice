@@ -1,0 +1,180 @@
+
+
+@font-face {
+    font-family: 'peyda';
+    src: url('peyda/peyda/peyda-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'peyda';
+    src: url('peyda/peyda/peyda-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: medium;
+}
+@font-face {
+    font-family: 'peyda';
+    src: url('peyda/peyda/peyda-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peyda';
+    src: url('peyda/peyda/peyda-semi-bold.ttf') format('truetype'),
+         url('peyda/peyda/peyda-semiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: bold;
+}
+
+p{ 
+    text-align: center;
+    font-family: 'peyda';    
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 40px;
+    width: 448px;
+    height: 40px;
+    position: absolute;
+    top: 446px;
+    left:203px ;
+    letter-spacing: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+.main{
+    display: flex;
+    width: 1920px;
+    height: 1084px;
+    background-color: white;
+    box-sizing: border-box;
+    
+
+}
+
+.manimg{
+
+    width: 1084px;
+    height: 1084px;
+    top: -4px;
+    
+}
+.container{
+    /* width: 836px;
+    height: 1084px; */
+    direction: rtl;
+    position: relative;
+    
+}
+
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+
+}
+.hopeimg{
+    width: 303px;   
+    height: 242px;
+    position: absolute;
+    top: 182px;
+    left: 258px; /* 1342-1084=258 */
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 354px;
+    height: 304px;
+    position: absolute;
+    top: 522px;
+    left: 239px; /* 1323-1084=239 */
+    gap: 32px;
+    
+   }
+
+/* .inputs{
+    flex-direction: column;
+    width: 354px;
+    height: 106px;
+    gap: 4px;
+    padding: 16px 8px;
+    
+
+} */
+ 
+.lb1{
+    font-family: 'peyda';
+    font-weight: 400;
+    font-style: normal;
+    color: #190c33;
+    font-size: 16px;
+    width: 354px;
+    height: 32px;
+    padding-right: 8px;
+    padding-left: 8px;
+    gap:10px;
+    
+}
+.lb2{
+    font-family: 'peyda';
+    font-weight: 400;
+    font-style: normal;
+    color: #190c33;
+    font-size: 16px;
+    width: 354px;
+    height: 32px;
+    padding-right: 8px;
+    padding-left: 8px;
+    gap:10px;
+    
+}
+#phone{
+    font-family: 'peyda';
+    font-weight: 400;
+    font-style: normal;
+    color: #A5A5A5;
+    font-size: 13px;
+    width: 354px;
+    height: 48px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 12px;
+    gap: 10px;
+}
+#password{
+    font-family: 'peyda';
+    font-weight: 400;
+    font-style: normal;
+    color: #A5A5A5;
+    font-size: 13px;
+    width: 354px;
+    height: 48px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 12px;
+    gap: 10px;
+}
+#btn{
+    font-family: 'peyda';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+    width: 354px;
+    height: 48px;
+    border-radius: 12px;
+    padding: 8px 16px;
+    gap: 12px;
+    background-color: #234C6A;
+    color: white;
+}
+
